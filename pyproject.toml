@@ -1,0 +1,19 @@
+[project]
+name = "crispr-repair"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ljw", email = "ljw2017@sjtu.edu.cn" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "biopython>=1.87",
+]
+
+[project.scripts]
+crispr-repair = "crispr_repair:main"
+
+[build-system]
+requires = ["uv_build>=0.9.16,<0.10.0"]
+build-backend = "uv_build"
