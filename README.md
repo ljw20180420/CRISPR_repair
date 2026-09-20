@@ -2,6 +2,8 @@
 
 # Idea
 
+- write a O(N^3) version as control, then implement O(N^2) version
+
 - 延切化简
 - 用ref的后缀序列计算它与当前query延伸末端的微同源
 - 解耦合两端query的依赖，从而将复杂度从O3降低到O2
