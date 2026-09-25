@@ -2,6 +2,7 @@
 
 # Idea
 
+- 增加从匹配结果生成动画的功能
 - write a O(N^3) version as control, then implement O(N^2) version
 
 - 延切化简
